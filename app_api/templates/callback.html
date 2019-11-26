@@ -1,0 +1,7 @@
+<h1>Success</h1>
+<h3><b>Your Token</b> : {{ oauth_token }}</h3>
+<h3><b>Your Token Secret</b> : {{ token_secret }}</h3>
+
+{% for tweet in all_tweets %}
+    {{ tweet }}
+{% endfor %}
